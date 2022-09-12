@@ -1,0 +1,106 @@
+.comboboxdialog {
+    position: relative;
+    flex-direction: row;
+    border-radius: 2.5px;
+    box-sizing: border-box;
+    padding-right: unset;
+   
+
+}
+.comboboxdialog__input{
+    width: 212;
+    height: 35px;
+    flex: 1;
+    padding-right: 56px !important;
+    padding-left: 8px !important;
+    border-radius: 2.5px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    font-family: MISA Fonts;
+    box-sizing: border-box;
+    padding-left: 30px;
+    font-weight: inherit;
+}
+
+.comboboxdialog__input:focus~.combobox__buttons {
+    border-color: #1aa4c8;
+}
+
+.comboboxdialog__input:focus {
+    border-color: #1aa4c8 !important;
+}
+
+.combobox__buttons {
+    position: absolute;
+    color: rgb(90, 90, 90);
+    border-radius: 2.5px;
+    right: 0px;
+    top: 0px;
+    border: 1px solid #bbbbbb;
+    border-left: unset;
+    height: 35px;
+    width: 40px;
+    border-radius: 0 4px 4px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    cursor: pointer;
+    min-width: unset !important;
+    outline: none;
+    background: url('../../assets//icon/qlts-icon.svg') no-repeat -56px -323px;
+}
+
+.combobox__buttons:hover,
+.combobox__buttons:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.combobox__data {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0px;
+    position: absolute;
+    width: 199px;
+    top: 100%;
+    left: 0;
+    z-index: 9;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000016;
+    height: 230px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+}
+
+
+.combobox__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 40px;
+    padding-left: 35px;
+    height: 35px;
+    cursor: pointer;
+    /* border: 1px solid #ccc; */
+    outline: none;
+    z-index: 999;
+    position: relative;
+    font-size: 14px;
+}
+
+.combobox__item:hover,
+.combobox__item:focus,
+.combobox__item--focus,
+.combobox__item--hover {
+    background-color: #e9ebee;
+    color: #000;
+}
+
+.combobox__item--selected {
+    pointer-events: none;
+    background-color: #1aa4c8;
+    color: #fff;
+}

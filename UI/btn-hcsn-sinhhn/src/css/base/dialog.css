@@ -1,0 +1,33 @@
+.dialog{
+    /* display: none; */
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    z-index: 9999;
+    border-radius: 4px;
+}
+
+.dialog .dialog-content{
+    position: absolute;
+    background-color: rgb(255,255,255);
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    max-height: 1200px;
+    max-width: 1000px;
+    min-width:700px;
+    min-height:350px;
+    margin:5px;
+   
+
+}
+.dialog-content .dialog-body{
+    height: 60px;
+    padding: 24px;
+}
+
+

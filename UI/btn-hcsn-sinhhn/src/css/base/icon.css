@@ -1,0 +1,180 @@
+.header-logo{
+    width: 66px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.back-logo{
+    width: 36px;
+height: 36px;
+border-radius: 50%;
+background-image:linear-gradient(145.53deg, #25b6e2 0%, #177f9f 100%);
+/* background-color: #1c3048; */
+
+
+
+}
+.icon-logo{
+    background: url('../../assets/icon/qlts-icon.svg') -20px -680px;
+    color: #ffffff;
+    width: 36px;
+	height: 36px;
+    position:absolute;
+    cursor: pointer;
+}
+
+
+
+.icon-angle-up{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -28px -338px;
+    width: 7px;
+    height: 5px;
+    margin-bottom: 3px;
+}
+.icon-angle-down{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -72px -338px;
+    width: 7px;
+    height: 5px;    
+}
+
+.icon-notification{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -332px -109px;
+    width: 24px;
+    height: 24px;
+    margin-right:16px;
+    margin-top:10px;
+}
+
+.icon-category{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -199px -23px;
+    width: 24px;
+height: 24px;
+margin-right:18px;
+margin-top:10px;
+}
+.icon-question{
+    margin-right:20px;
+    margin-top:10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -67px -67px;
+}
+.icon-user{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -23px -23px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin-right:9px;
+    margin-top:10px;
+}
+
+.icon-tivi{
+    background-position: -21px -153px;
+    width: 24px;
+    height: 24px;
+}
+.icon-excel{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -287px -111px;
+    width: 20px;
+    height: 20px;
+}
+.icon-delete{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -463px -111px;
+    width: 24px;
+    height: 24px;
+}
+.icon-search{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -235px -15px;
+    width:30px;
+    height: 30px;
+}
+.icon-tivi{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -21px -153px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-car{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -65px -197px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-tree{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -110px -153px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-paint{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -153px -153px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-document{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -197px -155px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-glass{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -329px -153px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-chart{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -329px -153px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-searchnb{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -241px -153px;
+    width: 24px;
+    height: 24px;
+    
+}
+.icon-close{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -375px -284px;;
+    width: 20px;
+    height: 20px;
+}
+.icon-logout{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -285px -417px;
+    width: 24px;
+    height: 24px;
+    float: right;
+    cursor: pointer;
+}
+.icon-edit{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -156px -64px;
+    width: 24px;
+    height: 24px;
+}
+.icon-detail{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -244px -108px;
+    width: 24px;
+    height: 24px;
+}
+.icon-drop{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -243px -69px;
+    width: 24px;
+    height: 24px;
+}
+.icon-date{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -287px -67px;
+    width: 24px;
+    height: 24px;
+}
+.icon-onedelete{
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -463px -108px;
+    width: 24px;
+    height: 24px;
+}

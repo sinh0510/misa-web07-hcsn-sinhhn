@@ -1,0 +1,114 @@
+.table-footer {
+    background-color: #fff;
+    position: sticky; 
+    bottom: 0;
+  }
+  
+  .table-footer {
+    position: sticky;
+    font-size: 11px;
+  }
+  
+  .table-footer:hover {
+    background-color: #fff !important;
+  }
+  
+  .font-bold {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  
+  .paging {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .page-record .select {
+    background-color: #ffffff;
+    border-radius: 2.625px;
+    border: 1px solid #ffffff;
+    height: 25px;
+    overflow: hidden;
+    font-size: 11px;
+    padding: 0px 10px;
+    margin: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .page-record :focus {
+
+    border: 1px solid #ffffff;
+
+  }
+  
+  
+  .table__paging--center {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .total-record {
+    margin-right: 30px;
+  }
+  
+  .paging__button {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .paging__button:hover {
+    background-color: #dedede;
+  }
+  
+  .paging__button--group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .paging__number {
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .paging__number:hover {
+    background-color: #dedede;
+  }
+  
+  .paging__number--selected {
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .paging__button--prev {
+    background: url('../../assets/icon/qlts-icon.png') no-repeat -23px -241px;
+    width: 7px;
+    
+  }
+  
+  .paging__button--next {
+    background: url('../../assets/icon/qlts-icon.png') no-repeat -65px -241px;
+    width: 7px;
+    text-align: center;
+  }

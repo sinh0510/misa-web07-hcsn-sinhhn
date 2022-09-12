@@ -1,0 +1,141 @@
+.dialog{
+    padding:16px;
+}
+
+.dialog-item{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding: 8px 8px 8px 8px;
+    grid-template-areas: 
+    "a1  a2  a2"
+    "a3  a4  a4"
+    "a5  a6  a6"
+    "a7  a8  a9"
+    "a10 a11 a12"
+    "a13 a14 a15"
+    ;
+}
+.dialog-title{
+    width:24px;
+    height:24px;
+    font-size: 20px;
+    min-width: 400px;
+    font-weight: bold;
+
+}
+
+.dialog-item:first-child{
+    grid-area: a1;
+}
+.dialog-item:nth-child(2){
+    grid-area: a2;
+}
+.dialog-item:nth-child(2){
+    grid-area: a2;
+}
+.dialog-item:nth-child(3){
+    grid-area: a3;
+}
+.dialog-item:nth-child(4){
+    grid-area: a4;
+}
+.dialog-item:nth-child(5){
+    grid-area: a5;
+}
+.dialog-item:nth-child(6){
+    grid-area: a6;
+}
+.dialog-item:nth-child(7){
+    grid-area: a7;
+}
+.dialog-item:nth-child(8){
+    grid-area: a8;
+}
+.dialog-item:nth-child(9){
+    grid-area: a9;
+}
+.dialog-item:nth-child(10){
+    grid-area: a10;
+}
+.dialog-item:nth-child(11){
+    grid-area: a11;
+}
+.dialog-item:nth-child(12){
+    grid-area: a12;
+}
+.dialog-item:nth-child(13){
+    grid-area: a13;
+}
+.dialog-item:nth-child(14){
+    grid-area: a14;
+}
+
+.dialog-button{
+    top:0;
+    background-color: #f4f7ff;
+    display:flex;
+    height:52px;
+    flex-direction: row-reverse;
+   padding-top:8px;
+   padding-bottom: 8px;
+}
+.dialog-header{
+    bottom:0;
+    background-color: #ffffff;
+    display:flex;
+    height:52px;
+    flex-direction: row;
+    justify-content:space-between;
+   padding: 20px 16px 20px 16px;
+}
+
+.dialog-close{
+    width:24px;
+    height:24px;
+    cursor: pointer;
+
+}
+
+.dialog-save{
+    color: #fff;
+    margin-right:16px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0);
+}
+.dialog-cancel{
+    background-color: #fff;
+    color:#000;
+    margin-right:10px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0);
+}
+.input-small{
+    display:flex;
+    flex-direction: column;
+
+}
+.input-big{
+    display:flex;
+    flex-direction: column;
+}
+.input-big[type="text"]:disabled {
+    background: #949494;
+  }
+.input-max{
+    width:100%
+}
+.dialog-label{
+    margin-bottom:8px;
+}
+
+
+/* input[type=number]::-webkit-inner-spin-button,  */
+input[type=number]::-webkit-outer-spin-button { 
+
+    margin: 10px; 
+}
+/* input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+
+    margin: 0; 
+} */
+

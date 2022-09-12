@@ -1,0 +1,68 @@
+.m-input{
+    height: 35px;
+    width:179px;
+    color: #000;
+    border-width: 1px;
+    border-radius: 2.5px;
+    background-color: #ffffff;
+    outline: none;
+    padding: 0 16px;
+    border:1px solid #afafaf;
+    background-color: unset;
+    box-sizing: border-box;
+    
+}
+
+input[type="text"]:disabled {
+    background: #eae9e9;
+  }
+.m-input:focus{
+    border-color: #0950a5;
+}
+
+.m-input::placeholder{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.m-input-icon{
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    padding-left: 40px;
+    padding-right: 16px;
+}
+
+.text-aline-right{
+    text-align: right;
+}
+
+.m-input-error{
+    border-color:red;
+}
+
+  
+.error input[type=text] {
+    border: 1px solid #cc0033;
+    outline: none;
+}
+  
+.error .errorMsg {
+    display: flex; 
+    width: 85%;
+    left: 15%;
+    position: relative; 
+    
+}
+.group .errorMsg {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+    width: 100%;
+}
+
+.m-search{
+    background-position: no-repeat -243px -23px;
+    
+}

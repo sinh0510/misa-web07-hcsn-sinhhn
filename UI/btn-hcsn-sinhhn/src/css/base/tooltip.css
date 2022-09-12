@@ -1,0 +1,41 @@
+.tooltip important {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    white-space: nowrap;
+    padding:5px 12px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    margin-top:28px;
+    margin-left: -40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip .tooltiptexttop {
+    visibility: hidden;
+    white-space: nowrap;
+    padding:5px 12px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    margin-top:-33px;
+    margin-left: -40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip:hover .tooltiptexttop {
+    visibility: visible;
+  }

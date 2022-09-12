@@ -1,0 +1,54 @@
+@import url(./base/button.css);
+@import url(./base/icon.css);
+@import url(./base/input.css);
+@import url(./base/paging.css);
+@import url(./base/dialog.css);
+@import url(./base/table.css);
+@import url(./base/combobox.css);
+@import url(./base/dropdown.css);
+@import url(./layout/function.css);
+@import url(./layout/content-header.css);
+@import url(./layout/layout.css);
+@import url(./layout/sidebar.css);
+@import url(./base/popup.css);
+
+
+@font-face {
+  font-family: MISA Fonts;
+  src: url(../assets/font/roboto/Roboto-Regular.ttf)
+}
+html{
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+body{
+    margin: 0px;
+    font-family: MISA Fonts;
+    font-size:13px;
+    background-color: #E0E0E0;
+    box-sizing: border-box;
+}
+.icon{
+    background-image: url("../assets/icon/qlts-icon.png");
+    cursor: pointer;
+}
+.display-flex{
+    display:flex;
+    text-align: center;
+}
+.border-red{
+  border-color: red;
+}
+.checktable{
+  background-color: rgba(26, 164, 200, .2);
+}
+
+.italic { 
+  font-style: italic;
+}
+
+.comboboxdialog__input::placeholder{
+  font-style: italic;
+}

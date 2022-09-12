@@ -1,0 +1,72 @@
+
+.m-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1aa4c8;
+    border-radius: 3px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, .16);
+    width: 110px;
+    height: 36px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+.m-btn:hover{
+    background-color: #0582A2;
+}
+.m-btn-active{
+    background-color: #1aa4c8;
+}
+.m-btn-white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:110px;
+    height:36px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, .16); */
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    border:1px solid #e9ebee;
+}
+.m-btn-white:hover{
+    background-color: #1aa4c8;
+    color:#ffffff;
+}
+.m-btn-white-active{
+    background-color: #1aa4c8;
+}
+
+.button-focus{
+    background-color: red;
+}
+.button-disabled{
+    background-color: blue;
+}
+.m-btn-icon{
+    background-position: 16px center;
+    background-size: 16px 16px;
+    padding-left: 40px;
+    padding-right:16px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+/* TT */
+.btn-add {
+    background: no-repeat -467px -423px;
+    font-size: 13px;
+    color: #ffffff;
+    padding-left:13px;
+}
